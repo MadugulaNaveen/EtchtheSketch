@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unleash Your Creativity</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container flex-column">
+    <div class="flex-item">
+      <h1 class="heading">UNLEASH YOUR CREATIVITY</h1>
+    </div>
+    <div class="flex-item flex-row">
+      <div class="flex-item flex-column">
+        <div class="colorContainer">
+          <input type="color" name="colorPicker" id="colorPicket" class="colorPicker">
+        </div>
+        <button class="paint">Paint</button>
+        <button class="rainbowPainting">Rainbow</button>
+        <button class="eraser">Erase</button>
+        <button class="clearBoard">Clear</button>
+        <button class="resetButton">Reset</button>
+        <div class="ranges flex-column">
+          <input type="range" name="noOfSquares" id="pixelDeterminer" class="pixelDeterminer" min="2" max="60">
+          <div class="rangeValues"></div>
+        </div>
+      </div>
+    
+      <div class="squaresContainer flex-item"></div>
+  </div>
+  </div>
+  <footer>
+    Made by <span class="name">Naveen</span>✌️
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>
