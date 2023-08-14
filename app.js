@@ -21,6 +21,9 @@ function changeSize(newSize){
 
 function changeColor(newColor){
   COLOR = newColor
+  btns.forEach(btn => {
+    btn.classList.remove('active')
+  })
   console.log(COLOR)
 }
 
